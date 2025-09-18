@@ -93,7 +93,6 @@ public class TestBase {
 			
 			System.setProperty("org.uncommon.reportng.escape-output", "false");
 			
-			
 			if(System.getenv("browser") !=null && !System.getenv("browser").isEmpty()) {
 				
 				config.setProperty("browser", System.getenv("browser"));
