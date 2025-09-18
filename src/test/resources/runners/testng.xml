@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="BankMangerTestSuit">
+<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter" />
+	<listener class-name="com.mw.listeners.CustomListeners"></listener>
+	<!--  <! listener class-name="org.uncommon.reportng.JUnitXMLReporter" /> -->
+	
+</listeners>
+
+  <test name="BankMangerLoginTests">
+    <classes>
+      <class name="com.mw.testcases.BankManagerLoginTest"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test thread-count="3" name="BankMangerAddCustomerTests">
+    <classes>
+      <class name="com.mw.testcases.AddCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="3" name="BankMangerOpenAccount Tests">
+    <classes>
+      <class name="com.mw.testcases.OpenAccountCommonDataProvider"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
