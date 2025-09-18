@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [BasicTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SomeBasicTests(failed)">
+    <classes>
+      <class name="com.mw.testcases.BankManagerLoginTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.mw.testcases.BankManagerLoginTest -->
+    </classes>
+  </test> <!-- SomeBasicTests(failed) -->
+</suite> <!-- Failed suite [BasicTestSuite] -->

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-18T12:59:57 IST" name="Default suite" finished-at="2025-09-18T12:59:57 IST" duration-ms="18">
+    <groups>
+    </groups>
+    <test started-at="2025-09-18T12:59:57 IST" name="Default test" finished-at="2025-09-18T12:59:57 IST" duration-ms="18">
+      <class name="com.mw.rough.BeforeMethodTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="setUp" finished-at="2025-09-18T12:59:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testAddition()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="testAddition" finished-at="2025-09-18T12:59:57 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddition -->
+        <test-method signature="testDivision()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="testDivision" finished-at="2025-09-18T12:59:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDivision -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="setUp" finished-at="2025-09-18T12:59:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testMultiplication()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="testMultiplication" finished-at="2025-09-18T12:59:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMultiplication -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="setUp" finished-at="2025-09-18T12:59:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testSubtraction()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="testSubtraction" finished-at="2025-09-18T12:59:57 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSubtraction -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.mw.rough.BeforeMethodTest@74235045]" started-at="2025-09-18T12:59:57 IST" name="setUp" finished-at="2025-09-18T12:59:57 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+      </class> <!-- com.mw.rough.BeforeMethodTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
